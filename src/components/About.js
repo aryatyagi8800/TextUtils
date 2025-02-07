@@ -37,7 +37,7 @@ export default function About(props) {
 // }
     return (
         <div className="container" style={mystyle}>
-            <h1 className='my-3'>About Us</h1>
+            <h1 className='my-3'><font style={{color:"red"}}>About</font> Us</h1>
             <div className="accordion" id="accordionExample" style={mystyle}>
                 <div className="accordion-item">
                     <h2 className="accordion-header">
